@@ -1,0 +1,29 @@
+uuid: 352640c8-c83a-4099-a154-e1df0219718b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tamano_de_la_empresa
+    - node.type.registro_tie
+    - taxonomy.vocabulary.tamano_de_empresa
+id: node.registro_tie.field_tamano_de_la_empresa
+field_name: field_tamano_de_la_empresa
+entity_type: node
+bundle: registro_tie
+label: 'Tamaño de la Empresa'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tamano_de_empresa: tamano_de_empresa
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

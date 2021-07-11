@@ -1,0 +1,4 @@
+global-styling:
+  css:
+    base:
+      public/css/globalstyles.css: {}

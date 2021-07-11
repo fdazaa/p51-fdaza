@@ -1,0 +1,9 @@
+uuid: 38529fba-78c9-4b9a-aaf9-cdf26d91cf67
+langcode: es
+status: true
+dependencies: {  }
+id: direccion
+label: Dirección
+weight: 8
+is_admin: null
+permissions: {  }

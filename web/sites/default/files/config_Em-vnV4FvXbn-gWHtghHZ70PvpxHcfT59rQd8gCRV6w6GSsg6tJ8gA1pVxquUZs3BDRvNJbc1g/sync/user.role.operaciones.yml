@@ -1,0 +1,9 @@
+uuid: 07c2b0b6-d3c2-4450-bcf8-13f4c4cc146f
+langcode: es
+status: true
+dependencies: {  }
+id: operaciones
+label: Operaciones
+weight: 9
+is_admin: null
+permissions: {  }
