@@ -17,6 +17,7 @@
     "require": {
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.0",
+        "drupal/devel": "^4.1",
         "drupal/backup_migrate": "^5.0",
         "drupal/commerce": "^2.24",
         "drupal/core-composer-scaffold": "9.2",
@@ -32,9 +33,7 @@
         "drupal/quiz": "^6.0@alpha",
         "drupal/reference_table_formatter": "^2.0@alpha",
         "drupal/smtp": "^1.0",
-        "drush/drush": "^10.5",
-        "drupal/devel": "^4.1",
-		"drupal/admin_toolbar": "^3.0"
+        "drush/drush": "^10.5"
     },
     "conflict": {
         "drupal/drupal": "*"
